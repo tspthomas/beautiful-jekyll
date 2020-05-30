@@ -27,7 +27,7 @@ p {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.1;
 }
 h1 {
@@ -37,7 +37,7 @@ h2 {
   font-size: 1.875rem;
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 h4 {
   font-size: 1.125rem;
@@ -453,7 +453,7 @@ footer .footer-custom-content {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: {{ site.hover-col | default: "#0085A1" }};
+  color: {{ site.navbar-col | default: "#0085A1" }};
 }
 
 .post-preview .post-title {
@@ -600,7 +600,7 @@ footer .footer-custom-content {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 1.6875rem;
+  font-size: 1.5rem;
   line-height: 1.1;
   display: block;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -645,7 +645,7 @@ footer .footer-custom-content {
     padding: 9.375rem 0;
   }
   .intro-header .page-heading h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .intro-header .post-heading h1 {
     font-size: 3.125rem;
