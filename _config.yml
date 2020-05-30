@@ -12,7 +12,7 @@ author: Thomas Paula
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+#  About Me: "aboutme"
 
 # --- Logo --- #
 
@@ -96,7 +96,7 @@ footer-link-col: "#404040"
 # --- Web Statistics Section --- #
 
 # Fill in your Google Analytics gtag.js ID to track your website using gtag
-#gtag: ""
+gtag: "UA-102435157-2"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
@@ -115,7 +115,7 @@ footer-link-col: "#404040"
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+disqus: "tspthomas"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
