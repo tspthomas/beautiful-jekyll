@@ -107,8 +107,8 @@ As we did all the required steps, we can simply call the method `predict` to ext
 
 That's all it takes to extract features used a pre-trained model.
 I encourage you to explore this, testing different pre-trained models with different images.
-You can find a notebook with this example here: [https://github.com/tspthomas/blog_notebooks](https://github.com/tspthomas/blog_notebooks).
-
+You can find a notebook with feature extraction using the above example in Keras and a similar example in PyTorch [here](https://github.com/tspthomas/blog_notebooks/tree/master/2020/feature_extraction).
+I also added a simple example on how you can compute similarity between two images using their respective feature vectors.
 
 ### Final thoughts
 
@@ -131,12 +131,12 @@ Feedback is appreciated, so in case you find any errors, have any suggestions, o
 ---
 Cite this article as:
 ```
-@article{thomaspaula2020tbd,
+@article{thomaspaula2020featureextraction,
   title   = "A quick glimpse on feature extraction with deep neural networks",
   author  = "Paula, Thomas",
   journal = "tspthomas.github.io",
   year    = "2020",
-  url     = "https://tspthomas.github.io/2020-06-02-feature-extraction-with-deep-neural-nets/"
+  url     = "https://tspthomas.github.io/2020-06-04-feature-extraction-with-deep-neural-nets/"
 }
 ```
 ---
@@ -148,3 +148,4 @@ Cite this article as:
 * <a name="reference2">[2]</a> Lin et al. [Network in network](https://arxiv.org/abs/1312.4400), 2013.
 * <a name="reference3">[3]</a> Razavian et al. [CNN Features off-the-shelf: an Astounding Baseline for Recognition](https://arxiv.org/pdf/1403.6382.pdf), 2014.
 * <a name="reference4">[4]</a> Stanford's CS231n Lecture Notes on [Neural Networks Training](https://cs231n.github.io/neural-networks-2/#datapre)
+* <a name="reference5">[5]</a> [Feature Extraction Example Notebooks](https://github.com/tspthomas/blog_notebooks/tree/master/2020/feature_extraction)
