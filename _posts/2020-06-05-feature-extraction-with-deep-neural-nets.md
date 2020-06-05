@@ -105,7 +105,7 @@ This is a very important step because whenever we use a trained model we need to
 A common mistake is to forget this step, which can significantly affect the resulting output, be it features or classification labels.
 As we did all the required steps, we can simply call the method `predict` to extract the features of the image.
 
-That's all it takes to extract features used a pre-trained model.
+That's all it takes to extract features using a pre-trained model.
 I encourage you to explore this, testing different pre-trained models with different images.
 You can find a notebook with feature extraction using the above example in Keras and a similar example in PyTorch [here](https://github.com/tspthomas/blog_notebooks/tree/master/2020/feature_extraction).
 I also added a simple example on how you can compute similarity between two images using their respective feature vectors.
@@ -136,7 +136,7 @@ Cite this article as:
   author  = "Paula, Thomas",
   journal = "tspthomas.github.io",
   year    = "2020",
-  url     = "https://tspthomas.github.io/2020-06-04-feature-extraction-with-deep-neural-nets/"
+  url     = "https://tspthomas.github.io/2020-06-05-feature-extraction-with-deep-neural-nets/"
 }
 ```
 ---
